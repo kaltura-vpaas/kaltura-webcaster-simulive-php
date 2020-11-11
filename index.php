@@ -68,7 +68,7 @@ $scheduleEvent->endDate = $eventEndDateTime;
 $scheduleEvent->recurrenceType = KalturaScheduleEventRecurrenceType::NONE;
 $scheduleEvent->templateEntryId = $liveStreamEntry->id;
 $scheduleEvent->sourceEntryId = VOD_SOURCE_ENTRY_ID;
-$scheduleEvent->preStartTime = 30;
+$scheduleEvent->preStartTime = SIMULIVE_PRE_START_TIME;
 $schedulePlugin = KalturaScheduleClientPlugin::get($client);
 $scheduleEvent = $schedulePlugin->scheduleEvent->add($scheduleEvent);
 

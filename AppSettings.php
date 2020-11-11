@@ -34,6 +34,7 @@ define('VOD_SOURCE_ENTRY_ID', '<INSERT_PROPER_VALUE>');
 define('TIMEZONE_UTC_OFFSET', '<INSERT_PROPER_VALUE>'); // offset from UTC in hours with leading zero and negative/positive sign, e.g. '-0400'
 define('SIMULIVE_SESSION_START', '<INSERT_PROPER_VALUE>'); // e.g. '28-Oct-20 9:00:00 AM'
 define('SIMULIVE_SESSION_END', '<INSERT_PROPER_VALUE>'); // e.g. '28-Oct-20 10:00:00 AM'
+define('SIMULIVE_PRE_START_TIME', 30); // Number of seconds prior to session start time to begin streaming the VOD entry
 
 // Assign these values appropriately
 define('APP_NAME', 'Kaltura Webcaster'); // Alpha-numeric string that represents the hosting application name (the app that launches the webcast)
